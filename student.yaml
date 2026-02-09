@@ -1,0 +1,17 @@
+- name: "T SRAVAN KUMAR"
+  dob: "2003-04-01"
+  mobilenumber: 6302522351
+  addresses:
+  - flatno: 104
+    street: "Gandhi nagar"
+    city: "Hyderabad"
+
+- name: "sivaram"
+  dob: "2003-04-01"
+  mobilenumber: 9878972346
+  addresses:
+  - flatno: 105
+    street: "Gandhi nagar"
+    city: "Hyderabad"
+  
+  
