@@ -9,4 +9,4 @@
   tasks:
   - name: Printing variables
     ansible.builtin.debug:
-      msg: "Name is: {{ Name }}, Designation is {{ Designation }}, Company is: {{ Company }}"
+      msg: "Name is: {{ NAME }}, Designation is {{ Designation }}, Company is: {{ Company }}"
