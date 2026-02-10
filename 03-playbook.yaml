@@ -1,9 +1,10 @@
 - name: Installing Nginx
   hosts: localhost
   connection: local
+  become: yes
+
   tasks:
   - name: Install Nginx
-    become: yes
     ansible.builtin.package:
       name: nginx
       state: present
