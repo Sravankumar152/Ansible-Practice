@@ -1,0 +1,12 @@
+- name: var playbook
+  host: local
+  connection: local
+  vars:
+    NAME: T SRAVAN KUMAR
+    Designation: DevOps Engineer
+    Company: Processq Inc
+  
+  tasks:
+  - name: Printing variables
+    ansible.builtin.debug:
+      msg: "Name is: {{Name}}, Designation is {{Designation}}, Company is: {{Company}}"
