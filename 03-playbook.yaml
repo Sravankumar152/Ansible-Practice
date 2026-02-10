@@ -1,5 +1,6 @@
 - name: Installing Nginx
   hosts: localhost
+  hosts: Node
   connection: local
   become: yes
 
