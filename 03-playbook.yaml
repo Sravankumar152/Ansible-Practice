@@ -7,3 +7,8 @@
       name: nginx
       state: present
       use: dnf
+
+  - name: Running the Nginx
+    ansible.builtin.service:
+      name: nginx
+      service: started
