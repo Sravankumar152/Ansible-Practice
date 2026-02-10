@@ -1,7 +1,7 @@
 - name: taking uname and password
   hosts: local
   connection: local
-  vars_promt:
+  vars_prompt:
     - name: username
       promt: pls enter your user name
       private: false
