@@ -1,7 +1,7 @@
 - name: Installing Nginx
-  hosts: localhost
+  # hosts: localhost
+  # connection: local
   hosts: Node
-  connection: local
   become: yes
 
   tasks:
