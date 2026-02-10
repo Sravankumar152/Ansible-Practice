@@ -5,7 +5,7 @@
     - name: username
       promt: pls enter your user name
       private: false
-  
+
     - name: password
       promt: pls enter your password
       private: false
