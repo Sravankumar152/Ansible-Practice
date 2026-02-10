@@ -1,5 +1,6 @@
 - name: Installing Nginx
   hosts: localhost
+  connection: local
   tasks:
   - name: Install Nginx
     become: yes
