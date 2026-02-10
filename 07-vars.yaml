@@ -1,15 +1,17 @@
 - name: taking uname and password
-  hosts: local
+  hosts: localhost
   connection: local
+
   vars_prompt:
     - name: username
-      promt: pls enter your user name
+      prompt: "please enter your user name"
       private: false
 
     - name: password
-      promt: pls enter your password
+      prompt: "please enter your password"
       private: false
-  tasks: 
+
+  tasks:
   - name: printing var from user
     ansible.builtin.debug:
       msg: "uname is: {{ username }}, password is: {{ password }}"
