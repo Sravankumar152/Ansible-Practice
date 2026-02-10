@@ -1,5 +1,5 @@
 - name: var playbook
-  host: local
+  hosts: local
   connection: local
   vars:
     NAME: T SRAVAN KUMAR
