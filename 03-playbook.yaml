@@ -9,6 +9,7 @@
       use: dnf
 
   - name: Running the Nginx
+    become: yes
     ansible.builtin.service:
       name: nginx
       service: started
