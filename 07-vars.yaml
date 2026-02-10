@@ -2,13 +2,13 @@
   hosts: local
   connection: local
   vars_promt:
-  - name: username
-    promt: pls enter your user name
-    private: false
+    - name: username
+      promt: pls enter your user name
+      private: false
   
-  - name: password
-    promt: pls enter your password
-    private: false
+    - name: password
+      promt: pls enter your password
+      private: false
   tasks: 
   - name: printing var from user
     ansible.builtin.debug:
