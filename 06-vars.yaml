@@ -1,0 +1,11 @@
+- name: var playbook
+  hosts: local
+  connection: local
+  vars_files:
+  - details.yaml 
+  tasks:
+  - name: Printing variables
+    vars:
+      NAME: Sravan reddy
+    ansible.builtin.debug:
+      msg: "Name is: {{ NAME }}, Designation is {{ Designation }}, Company is: {{ Company }}"
