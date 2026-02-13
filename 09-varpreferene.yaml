@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    NAME: T SRAVAN KUMAR
+    NAME: "Ansible from play"
   vars_files:
   - deatils.yaml
   vars_prompt:
