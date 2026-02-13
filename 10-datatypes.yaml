@@ -1,0 +1,22 @@
+- name: data types
+  hosts: local
+  connection: local
+  vars:
+    program: ansible
+    duration: 2
+    is_true: true
+    deatils:
+      months: 4
+    topics:
+      - variable
+      - string
+      - datatypes
+  tasks:
+    - name: print variable
+      ansible.builtin.debug:
+        msg: |
+          program: {{ program }}
+          duration: {{ duration }}
+          is_true: {{ is_true }}
+          deatils: {{ deatils }}
+          topics: {{ topics }}
