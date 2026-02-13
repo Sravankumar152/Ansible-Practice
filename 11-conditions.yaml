@@ -1,7 +1,6 @@
 - name: conditions
-  hosts: localhost
+  hosts: local
   connection: local
-
   vars:
     is_live: false
 
