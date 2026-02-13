@@ -2,7 +2,7 @@
   hosts: local
   conection: local
   vars:
-  is_live: false
+    is_live: false
 
   tasks:
     - name: check live or not
