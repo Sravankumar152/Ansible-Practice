@@ -9,4 +9,4 @@
         state: present
       loop:
         - nginx
-        - mysql-server
+        - mariadb105-server
