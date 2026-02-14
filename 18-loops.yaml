@@ -1,0 +1,12 @@
+- name: installing package
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+    - name: package installing
+      ansible.builtin.package:
+        name: "{{ item.name }}"
+        state: "{{ item.state }}"
+      loop:
+        - { name: "nginx", state: "present"}
+        - { name: "mariadb105-server", state: "absent"}
