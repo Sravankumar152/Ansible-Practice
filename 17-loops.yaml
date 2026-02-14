@@ -9,5 +9,4 @@
         state: present
       loop:
         - nginx
-        - mysql
-        - azure-cli
+        - mysql-server
