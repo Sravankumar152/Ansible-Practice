@@ -1,0 +1,10 @@
+- name: check a number greate or lesser
+  hosts: local
+  connection: local
+  vars:
+    Numberofsession: 7
+  tasks:
+    - name: check the number of session greater 5 or not
+      ansible.builtin.debug:
+        msg: "yes, the number of serrions are greater than 5"
+      when: Numberofsession > 5
