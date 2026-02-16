@@ -1,0 +1,12 @@
+- name: demo on filters
+  hosts: local
+  connection: local
+  tags:
+    name: sravan Kumar
+    designation: junior devops engineer
+    company: processq inc
+  
+  tasks:
+    - name: converting map to list
+      ansible.builtin.debug:
+        msg: "{{ tags | dict2items }}"
