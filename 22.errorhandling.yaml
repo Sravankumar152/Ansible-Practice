@@ -17,7 +17,7 @@
       when: user_output.rc != 0
       register: user_creation
 
-    - name: print the output
-      ansible.builtin.debug:
-        msg: "{{ user_creation }}"
+    # - name: print the output
+    #   ansible.builtin.debug:
+    #     msg: "{{ user_creation }}"
     
